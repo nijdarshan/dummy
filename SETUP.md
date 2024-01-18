@@ -43,13 +43,13 @@ Trasnsfer the zipped images to Corporate Laptop
 ### Step 3: Transfer to Jumphost
 - **Environment:** Transition from Online to Offline
 - **Action:**
-    - Use FTP on the corporate laptop to transfer the zipped file containing renamed images to Jumphost.
+    - Use WinSCP on the corporate laptop to transfer the zipped file containing renamed images to Jumphost.
     - Ensure secure data transfer protocols are followed.
 
 ### Step 4: Transfer to Server Connected Container Registry
 - **Environment:** Offline
 - **Action:**
-    - From Jumphost, use FTP again to transfer zipped files into a server that is connected with container registry.
+    - From Jumphost, download the images and use MobaXterm to transfer zipped files into a server that is connected with container registry.
 
 ### Step 5: Unzip, Rename and Push Images
 - **Environment:** Offline 
